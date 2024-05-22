@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Streak</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="topH">
+            <h1>Habit Streak</h1>
+        </div>
+        <div class="contents">
+            <div class="new">
+                <button>New Habit</button>
+                <div class="form">
+                    <form action="" method="post">
+                        <label for="name">Name of habit</label>
+                        <input type="text" class="name" id="name" placeholder="Habit Name">
+                        <label for="startDate">Start Date</label>
+                        <input type="date" class="startDate" id="startDate">
+                        
+                        <label>
+                            <input type="radio" name="option" value="good">
+                            Good
+                        </label>
+                        <br>
+                        <label>
+                            <input type="radio" name="option" value="bad">
+                            Bad
+                        </label>
+
+                        <label for="targetDate">Target Date</label>
+                        <input type="date" class="endDate" id="endDate">
+                        <input type="submit" value="Create Habit">
+                    </form>
+                </div>
+            </div>
+
+            <div class="good">
+                <h2>Good Habits</h2>
+                <div class="habit">
+                    <div class="habithead">
+                        <p habit 01>Habit 1</p>
+                        <p>X/y times</p>
+                    </div>
+                    <div class="habitcontent">
+                        <button class="incrementor">+1</button>
+                        <p>Progress circle</p>
+                    </div>
+                    <div class="habittail">
+                        <button>Bin Icon</button>
+                        <button>Reset Icon</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
