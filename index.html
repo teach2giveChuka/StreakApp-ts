@@ -5,59 +5,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Habit Streak</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="main">
+    <div class="Streak">
         <div class="topH">
-            <h1>Habit Streak</h1>
-        </div>
-        <div class="contents">
-            <div class="new">
-                <button>New Habit</button>
-                <div class="form">
-                    <form action="" method="post">
-                        <label for="name">Name of habit</label>
-                        <input type="text" class="name" id="name" placeholder="Habit Name">
-                        <label for="startDate">Start Date</label>
-                        <input type="date" class="startDate" id="startDate">
-                        
-                        <label>
-                            <input type="radio" name="option" value="good">
-                            Good
-                        </label>
-                        <br>
-                        <label>
-                            <input type="radio" name="option" value="bad">
-                            Bad
-                        </label>
-
-                        <label for="targetDate">Target Date</label>
-                        <input type="date" class="endDate" id="endDate">
-                        <input type="submit" value="Create Habit">
-                    </form>
-                </div>
-            </div>
-
-            <div class="good">
-                <h2>Good Habits</h2>
-                <div class="habit">
-                    <div class="habithead">
-                        <p habit 01>Habit 1</p>
-                        <p>X/y times</p>
-                    </div>
-                    <div class="habitcontent">
-                        <button class="incrementor">+1</button>
-                        <p>Progress circle</p>
-                    </div>
-                    <div class="habittail">
-                        <button>Bin Icon</button>
-                        <button>Reset Icon</button>
-                    </div>
-                </div>
-            </div>
+            <h1><ion-icon name="leaf-outline"></ion-icon>. Habit Streak  &nbsp; &nbsp; &nbsp;
+                 <div class="icons">
+                <ion-icon name="walk-outline"></ion-icon> &nbsp;<ion-icon name="barbell-outline"></ion-icon>&nbsp; &nbsp;<ion-icon name="fast-food-outline"></ion-icon>
+            </div></h1>
+           
         </div>
     </div>
+
+
+    <div class="main"></div>
+    <div class="contents">
+        <div class="new">
+            <button style="display: flex; align-items: center; font-size: 17px;"><ion-icon
+                    style="font-size: 20px; color: rgb(0, 0, 0);" name="add-circle-outline"></ion-icon> &nbsp; New
+                Habit</button>
+            <div class="form">
+                <form action="" method="post">
+                    <label for="name">Name of habit</label>
+                    <input type="text" class="name" id="name" placeholder="Habit Name">
+                    <label for="startDate">Start Date</label>
+                    <input type="date" class="startDate" id="startDate">
+
+                    <label style="text-align: center;">
+                        <div style="margin-bottom: 10px; text-align: center;">Habit Nature </div>
+                        <input type="radio" name="option" value="good">
+                       Started New Habit
+                        <input type="radio" name="option" value="bad">
+                        Dropped
+                    </label>
+
+
+                    <label for="targetDate">Target Date</label>
+                    <input type="date" class="endDate" id="endDate">
+                    <input type="submit" value="Create Habit">
+                    <button><ion-icon style="font-size: 20px;" name="log-out-outline"></ion-icon> &nbsp; Done</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="good">
+            <h2>Good Habits</h2>
+            <div class="habit">
+                <div class="habithead">
+                    <p habit 01>Habit 1</p>
+                    <p>X/y times</p>
+                </div>
+                <div class="habitcontent">
+                    <button class="incrementor">+1</button>
+                    <p>Progress circle</p>
+                </div>
+                <div class="habittail">
+                    <button><ion-icon name="trash-outline"></ion-icon> &nbsp;Delete</button>
+                    <button><ion-icon name="refresh-outline"></ion-icon>&nbsp;Reset</button>
+                </div>
+            </div>
+            <!-- Habit -->
+            <div class="habit">
+                <div class="habithead">
+                    <p habit 01>Habit 2</p>
+                    <p>X/y times</p>
+                </div>
+                <div class="habitcontent">
+                    <button class="incrementor">+1</button>
+                    <p>Progress circle</p>
+                </div>
+                <div class="habittail">
+                    <button><ion-icon name="trash-outline"></ion-icon> &nbsp;Delete</button>
+                    <button><ion-icon name="refresh-outline"></ion-icon>&nbsp;Reset</button>
+                </div>
+            </div>
+
+            <!-- Habit 3 -->
+            <div class="habit">
+                <div class="habithead">
+                    <p habit 01>Habit 1</p>
+                    <p>X/y times</p>
+                </div>
+                <div class="habitcontent">
+                    <button class="incrementor">+1</button>
+                    <p>Progress circle</p>
+                </div>
+                <div class="habittail">
+                    <button><ion-icon name="trash-outline"></ion-icon> &nbsp;Delete</button>
+                    <button><ion-icon name="refresh-outline"></ion-icon>&nbsp;Reset</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bad -->
+        <div class="bad">
+            <h2>Dropped Habits</h2>
+            <div class="habit">
+                <div class="habithead">
+                    <p habit 01>Habit 1</p>
+                    <p>X/y times</p>
+                </div>
+                <div class="habitcontent">
+                    <button class="incrementor">+1</button>
+                    <p>Progress circle</p>
+                </div>
+                <div class="habittail">
+                    <button><ion-icon name="trash-outline"></ion-icon> &nbsp;Delete</button>
+                    <button><ion-icon name="refresh-outline"></ion-icon>&nbsp;Reset</button>
+                </div>
+            </div>
+
+            <!-- Habit 2 -->
+            <div class="habit">
+                <div class="habithead">
+                    <p habit 01>Habit 1</p>
+                    <p>X/y times</p>
+                </div>
+                <div class="habitcontent">
+                    <button class="incrementor">+1</button>
+                    <p>Progress circle</p>
+                </div>
+                <div class="habittail">
+                    <button><ion-icon name="trash-outline"></ion-icon> &nbsp;Delete</button>
+                    <button><ion-icon name="refresh-outline"></ion-icon>&nbsp;Reset</button>
+                </div>
+            </div>
+
+            <!-- Hanit 3 -->
+
+        </div>
+    </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
