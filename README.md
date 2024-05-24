@@ -3,6 +3,9 @@
 
 A simple habit tracker application that allows users to add, track, and delete habits. The application is built using TypeScript and utilizes JSON Server to simulate a backend API for data storage.
 
+### Screenshot
+![Component Screenshot](./images/Screenshot.PNG)
+
 ## Features
 
 - **Add Habits**: Users can add new habits with a name, start date, end date, and type (good or bad).
@@ -21,7 +24,8 @@ A simple habit tracker application that allows users to add, track, and delete h
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/your-username/habit-tracker.git
+    git clone https://github.com/teach2giveChuka/StreakApp-ts
+
     cd habit-tracker
     ```
 
