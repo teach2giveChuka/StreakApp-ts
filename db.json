@@ -1,0 +1,58 @@
+{
+  "streakData": [
+    {
+      "id": "1716536416639",
+      "name": "Sleeping late",
+      "startDate": "2024-05-23",
+      "endDate": "2024-05-27",
+      "type": "bad",
+      "progress": 1,
+      "goal": 4
+    },
+    {
+      "id": 1716537446820,
+      "name": "Smoking",
+      "startDate": "2024-05-01",
+      "endDate": "2024-05-30",
+      "type": "bad",
+      "progress": 0,
+      "goal": 29
+    },
+    {
+      "id": 1716537664121,
+      "name": "Cooking",
+      "startDate": "2024-05-15",
+      "endDate": "2024-05-31",
+      "type": "good",
+      "progress": 0,
+      "goal": 16
+    },
+    {
+      "id": 1716537694304,
+      "name": "Coding",
+      "startDate": "2024-05-23",
+      "endDate": "2024-05-31",
+      "type": "good",
+      "progress": 0,
+      "goal": 8
+    },
+    {
+      "id": 1716537939399,
+      "name": "Making the bed",
+      "startDate": "2024-05-16",
+      "endDate": "2024-06-08",
+      "type": "bad",
+      "progress": 0,
+      "goal": 23
+    },
+    {
+      "id": 1716538382466,
+      "name": "Drinking water",
+      "startDate": "2024-05-24",
+      "endDate": "2024-05-31",
+      "type": "good",
+      "progress": 0,
+      "goal": 7
+    }
+  ]
+}
