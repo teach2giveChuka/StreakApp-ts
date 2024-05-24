@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Streak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Streak">
+        <div class="topH">
+            <h1><ion-icon name="leaf-outline"></ion-icon> Habit Streak &nbsp;&nbsp;&nbsp;
+                <div class="icons">
+                    <ion-icon name="walk-outline"></ion-icon> &nbsp;<ion-icon name="barbell-outline"></ion-icon>&nbsp;&nbsp;<ion-icon name="fast-food-outline"></ion-icon>
+                </div>
+            </h1>
+        </div>
+    </div>
+
+    <div class="main"></div>
+    <div class="contents">
+        <div class="new">
+            <!-- <button class="toggle" style="display: flex; align-items: center; font-size: 17px;">
+                <ion-icon style="font-size: 20px; color: rgb(0, 0, 0);" name="add-circle-outline"></ion-icon> &nbsp; New Habit
+            </button> -->
+            <div class="form">
+                <form action="" method="post" class="form1">
+                    <label for="name">Name of habit</label>
+                    <input type="text" class="name" id="name" placeholder="Habit Name">
+                    
+                    <label for="startDate">Start Date</label>
+                    <input type="date" class="startDate" id="startDate">
+                    
+                    <label style="text-align: center;">
+                        <div style="margin-bottom: 10px; text-align: center;">Habit Nature</div>
+                        <div class="habitsd">
+                            <div class="started">
+                                <input type="radio" name="option" value="good"> Started <br>New Habit
+                            </div>
+                            <div class="dropped">
+                                <input type="radio" name="option" value="bad"> Dropped <br>Old Habit
+                            </div>
+                        </div>
+                    </label>
+                    
+                    <label for="targetDate">Target Date</label>
+                    <input type="date" class="endDate" id="endDate">
+                    
+                    <!-- <input type="submit" value="Create Habit" class="createHabit"> -->
+                    <button class="done"><ion-icon style="font-size: 20px;" name="add-circle-outline"></ion-icon> &nbsp; Create Habit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="good" id="good">
+            <h2>New Habits</h2>
+            <!-- Example habit structure -->
+            <div class="habit">
+                <div class="habithead">
+                    <p>Habit Name</p>
+                    <p>0/y times</p>
+                </div>
+                <div class="habitcontent">
+                    <button class="incrementor">+1</button>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar"></div>
+                    </div>
+                </div>
+                <div class="habittail">
+                    <button class="delete"><ion-icon name="trash-outline"></ion-icon> &nbsp;Delete</button>
+                    <button class="reset"><ion-icon name="refresh-outline"></ion-icon>&nbsp;Reset</button>
+                </div>
+            </div>
+            <!-- End of example habit structure -->
+        </div>
+
+        <div class="bad" id="bad">
+            <h2>Dropped Habits</h2>
+            <!-- Example habit structure -->
+            <div class="habit">
+                <div class="habithead">
+                    <p>Habit Name</p>
+                    <p>0/y times</p>
+                </div>
+                <div class="habitcontent">
+                    <button class="incrementor">+1</button>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar"></div>
+                    </div>
+                </div>
+                <div class="habittail">
+                    <button class="delete"><ion-icon name="trash-outline"></ion-icon> &nbsp;Delete</button>
+                    <button class="reset"><ion-icon name="refresh-outline"></ion-icon>&nbsp;Reset</button>
+                </div>
+            </div>
+            <!-- End of example habit structure -->
+        </div>
+    </div>
+
+    <a href=""></a>
+
+    <script src="./js/main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

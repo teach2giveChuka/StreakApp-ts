@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Calibri, sans-serif;
+    background-color: #222831;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80vw;
+    justify-content: center;
+}
+
+.Streak {
+    width: 100%;
+    background-color: #F6C90E;
+    color: black;
+}
+
+.topH {
+    display: flex;
+    padding: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border-bottom: 2px solid black;
+    margin-left: 20px;
+}
+
+.contents {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.new {
+    padding: 20px;
+}
+
+.new button {
+    background-color: #EEEEEE;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    justify-content: center;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #fff9bd;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+form input {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 13px;
+    border-radius: 10px;
+    background-color: #ffe680;
+}
+
+.form {
+    border-radius: 20px;
+    border: 2px solid grey;
+    padding: 30px;
+    width: 250px;
+}
+
+.good, .bad {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+    border-radius: 2px;
+}
+
+.habitsd {
+    display: flex;
+    justify-content: space-around;
+}
+
+.habit {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px 15px;
+    border-radius: 20px;
+    width: 80%;
+    border: 2px solid #F6C90E;
+}
+
+.habit button {
+    background-color: #EEEEEE;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.incrementor:hover {
+    background-color: #F6C90E;
+}
+
+.delete:hover {
+    background-color: #E93A3A;
+}
+
+.reset:hover {
+    background-color: #0071AC;
+}
+
+.habithead {
+    display: flex;
+    justify-content: space-around;
+}
+
+.habitcontent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.habittail {
+    display: flex;
+    justify-content: space-around;
+}
+
+.progress-bar-container {
+    width: 100%;
+    background-color: #465264;;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #F6C90E;
+    border-radius: 10px;
+    width: 0;
+}
+@media screen and (max-width: 344px){
+    .form{
+        width: 70%;
+        /* background-color: #E93A3A; */
+    }
+}
+@media screen and (max-width: 297px){
+    .form{
+        width: 50%;
+        /* background-color: #E93A3A; */
+    }
+    form{
+        width: 70%;
+    }
+   form input{
+        /* background-color: #E93A3A; */
+        width: 100%;
+    }
+}
