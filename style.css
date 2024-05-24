@@ -175,3 +175,22 @@ form input {
     border-radius: 10px;
     width: 0;
 }
+@media screen and (max-width: 344px){
+    .form{
+        width: 70%;
+        /* background-color: #E93A3A; */
+    }
+}
+@media screen and (max-width: 297px){
+    .form{
+        width: 50%;
+        /* background-color: #E93A3A; */
+    }
+    form{
+        width: 70%;
+    }
+   form input{
+        /* background-color: #E93A3A; */
+        width: 100%;
+    }
+}

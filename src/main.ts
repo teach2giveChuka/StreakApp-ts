@@ -30,7 +30,7 @@ function createHabitElement(habit: Habit): HTMLElement {
   habitElement.classList.add('habit');
   habitElement.innerHTML = `
     <div class="habithead">
-      <p>${habit.name}</p>
+      <p style"font-size: 25px;">${habit.name}</p>
       <p>${habit.progress}/${habit.goal} to goal</p>
     </div>
     <div class="habitcontent">
